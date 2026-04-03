@@ -86,7 +86,7 @@ App.RapidStartup=False
 App.SmartExcludeExemptions=["*.cfg","*.conf","*.config","*.ini","*.json","*.xml","*.properties","*.kvp","*.yml","*.yaml","*.toml","*.lua"]
 App.SmartExcludeSupported=False
 App.DumpFullChildProcessTree=False
-App.MonitorChildProcessName=^.*Wreckfest2\.exe.*$
+App.MonitorChildProcessName=^.*Wreckfest2\.exe.*--server.*--save-dir=.*server_data.*$
 App.MonitorDirectChildOnly=False
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
