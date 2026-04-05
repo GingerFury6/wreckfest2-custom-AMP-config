@@ -40,7 +40,7 @@
         "UpdateSourceData": "WF2AmpBridge-win.zip",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true
-      }
+    },
     {
         "UpdateStageName": "Proton GE Download",
         "UpdateSourcePlatform": "Linux",
